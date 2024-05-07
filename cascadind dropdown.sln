@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cascadind dropdown", "cascadind dropdown.csproj", "{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3E9C58A-4061-4170-98DD-08F5F61FF778}
+	EndGlobalSection
+EndGlobal

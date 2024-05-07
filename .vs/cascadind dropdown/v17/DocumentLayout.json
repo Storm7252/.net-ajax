@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desktop files\\Web dev data\\cascadind dropdown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\views\\home\\signupemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:views\\home\\signupemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\views\\home\\registeremployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:views\\home\\registeremployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\models\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:models\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|d:\\desktop files\\web dev data\\cascadind dropdown\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFB105A7-185B-4400-B1D7-60D4E7F0D5EE}|cascadind dropdown.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpEmp.cshtml",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\SignUpEmp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SignUpEmp.cshtml",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\SignUpEmp.cshtml",
+              "RelativeToolTip": "Views\\Home\\SignUpEmp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:56:54.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterEmployee.cshtml",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\RegisterEmployee.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\RegisterEmployee.cshtml",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\RegisterEmployee.cshtml",
+              "RelativeToolTip": "Views\\Home\\RegisterEmployee.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T16:26:13.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T15:51:11.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Designation.cs",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Designation.cs",
+              "RelativeDocumentMoniker": "Models\\Designation.cs",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Designation.cs",
+              "RelativeToolTip": "Models\\Designation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:04:43.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:02:13.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T12:06:18.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "Models\\Grade.cs",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\Grade.cs",
+              "RelativeToolTip": "Models\\Grade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:17:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAADwv0QAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:50:20.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\desktop files\\Web dev data\\cascadind dropdown\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:15:06.461Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+    <select id="desig" onchange="getgrade()">
+    <option selected disabled >Select Your Designation</option>
+    @foreach (var item in ViewBag.designation)
+    {
+        <option value="@item.Desig_Id">@item.Designation_Title</option>
+    }
+</select>
+
+<select id="gradelist">
+    <option selected disabled>select grade</option>
+</select>
+
+<script>
+   function getgrade(){
+        let Desigid=$("#desig").val();
+       $.ajax({
+           type: "POST",
+           url: "@Url.Action("Getdata", "Home")",
+           data: { x: Desigid },
+           dataType: "json",
+           success: function(data){
+                $.each(data, function (index, item) {
+                    $('#gradelist').append(
+                        $('<option>', { value: item.grade_Id, text: item.grade_Name }));                         
+                   });
+                   },
+           error: function(statuscode,err){
+               console.log(statuscode,err)
+           }
+       })
+    }
+</script>

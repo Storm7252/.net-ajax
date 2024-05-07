@@ -1,0 +1,81 @@
+﻿@model cascadind_dropdown.Models.Employee
+
+@{
+    ViewData["Title"] = "RegisterEmployee";
+}
+
+<h1>RegisterEmployee</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="RegisterEmployee">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           @*  <div class="form-group">
+                <label asp-for="EmpoyeeId" class="control-label"></label>
+                <input asp-for="EmpoyeeId" class="form-control" />
+                <span asp-validation-for="EmpoyeeId" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="EmpName" class="control-label"></label>
+                <input asp-for="EmpName" class="form-control" />
+                <span asp-validation-for="EmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <select id="desig" onchange="get()" asp-for="DesigId">
+                    <option selected disabled>Select Your Designation</option>
+                    @foreach (var item in @ViewBag.desig)
+                    {
+                        <option value="@item.Desig_Id">@item.Designation_Title</option>
+                    }
+                </select>
+                <span asp-validation-for="DesigId" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <select id="grade" onchange="getval()" asp-for="GradeId">
+                    <option selected disabled>select your Grade</option>
+                </select>
+                <span asp-validation-for="GradeId" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    function get(){
+        let desig=$("#desig").val()
+        console.log(`the designation Id is: ${desig}`)
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("getgrade","Home")",
+            data: { x: desig },
+            dataType:"json",
+            success: function (res) {
+                $.each(res,function (index,data) {
+                    $("#grade").append($('<option>', { value: data.grade_Id, text: data.grade_Name}))
+                })
+            },
+            error:function(statuscode,err){
+                console.log(statuscode,err)
+                
+           }
+        })
+        }
+    
+
+     function getval() {
+         let grd = $("#grade").val();
+        console.log(console.log(`the grade Id is: ${grd}`))
+    }
+</script>

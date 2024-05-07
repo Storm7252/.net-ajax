@@ -1,0 +1,89 @@
+﻿@model cascadind_dropdown.Models.Employee
+
+@{
+    ViewData["Title"] = "SignUpEmp";
+}
+
+
+<h4 id="heading3" class="btn btnbtn-outline-success"></h4>
+
+<h4>Registration Form</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mt-3">
+                <label asp-for="EmpName" class="control-label"></label>
+                <input asp-for="EmpName" class="form-control" id="empname"/>
+                <span asp-validation-for="EmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <select asp-for="DesigId" id="d_id" onchange="getdata()" class ="form-control" title="Select Your Designation">
+                    <option selected disabled>Select your designstion</option>
+                    @foreach (var item in @ViewBag.designation)
+                    {
+                        <option value="@item.Desig_Id">@item.Designation_Title</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group mt-3">
+                <select asp-for="GradeId" class="form-control" id="gd_id" title="Select Your Grade">
+                    <option selected disabled>select your grade</option>
+                </select>
+            </div>
+            </form>
+        <div class="form-group mt-3">
+            <input type="submit" value="Create" class="btn btn-primary" onclick="submitdata()" />
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    function getdata(){
+     let gradeid= $("#d_id").val();
+     $.ajax({
+        type:"POST",
+        url: "@Url.Action("getgrade","Home")",
+        data: {x:gradeid},
+        dataType:"json",
+        success: function (res) {
+            console.log(res)
+            $.each(res,function(index,data)
+            {
+                $("#gd_id").append($('<option>', { value: data.grade_Id, text: data.grade_Name }));
+            })
+        },
+        error:function(err){
+            console.log("error occurred");
+        }
+
+    })
+    }
+
+    function submitdata() {
+        let designationid = $("#d_id").val();
+        let employeeName = $("#empname").val();
+        let gradeid = $("#gd_id").val();
+        $.ajax({
+            type:"POST",
+            url: "@Url.Action("SignUpEmployee", "Home")",
+            data: { Desigid: designationid, EmployeeName: employeeName, GradeId: gradeid },
+            dataType:"json",
+            success: function(res) {
+                $("#heading3").html(res);
+            },
+            error:function(statuscode,err){
+                console.log(err);
+            }
+        })
+
+    }
+</script>
